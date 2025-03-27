@@ -50,23 +50,35 @@
         <div class="flex flex-col gap-2 justify-center items-center w-full">
           <h2 class="self-center text-base font-medium">Select A Package</h2>
 
-          <table class="table-auto w-full border-collapse border rounded-2xl border-green-600/30">
-            <thead class="rounded-t-2xl overflow-hidden">
-              <tr class="text-center border border-green-600/30">
+          <table class="table-auto w-full border border-green-600/30 rounded-2xl overflow-hidden outline outline-green-600/30">
+            <thead class="bg-gray-50/20">
+              <tr class="text-center border-b border-green-600/30">
                 <th class="max-sm:hidden">Package</th>
                 <th>Duration</th>
                 <th>Price</th>
                 <th>Action</th>
               </tr>
             </thead>
-            <tbody class="rounded-b-2xl overflow-hidden">
-              <tr class="text-center border border-green-600/30">
+            <tbody>
+              <tr class="text-center border-t border-b border-green-600/30">
                 <td class="max-sm:hidden">6 Hours</td>
                 <td>6 Hours</td>
                 <td>600</td>
                 <td>
                   <button
-                    class="px-5 h-10 my-2 text-base font-bold shadow-md inset-shadow-sm bg-green-600/30 hover:bg-green-600/40 rounded-lg cursor-pointer duration-[0.2s] ease-[ease] text-gray-800 transition-[background-color] focus:bg-green-800 "
+                    class="px-5 h-10 my-2 text-base font-bold shadow-md inset-shadow-sm bg-green-600/30 hover:bg-green-600/40 rounded-lg cursor-pointer duration-[0.2s] ease-[ease] text-gray-800 transition-[background-color] focus:bg-green-800"
+                    href="#">
+                    Buy
+                  </button>
+                </td>
+              </tr>
+              <tr class="text-center border-t border-b border-green-600/30">
+                <td class="max-sm:hidden">6 Hours</td>
+                <td>6 Hours</td>
+                <td>600</td>
+                <td>
+                  <button
+                    class="px-5 h-10 my-2 text-base font-bold shadow-md inset-shadow-sm bg-green-600/30 hover:bg-green-600/40 rounded-lg cursor-pointer duration-[0.2s] ease-[ease] text-gray-800 transition-[background-color] focus:bg-green-800"
                     href="#">
                     Buy
                   </button>
@@ -81,7 +93,8 @@
     </main>
 
     <footer class="mt-auto text-xs text-center text-gray-600 font-bold w-full p-5">
-      <a href="www.planetrevolutions.com" class="hover:text-green-800">Visit: www.planetrevolutions.com for more information and
+      <a href="www.planetrevolutions.com" class="hover:text-green-800">Visit: www.planetrevolutions.com for more
+        information and
         inquiries.
       </a>
     </footer>
